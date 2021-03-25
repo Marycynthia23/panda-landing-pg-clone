@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.caro1{
+    background: url('images/a.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.514);
+    background-blend-mode: overlay;
+}
+.caro2{
+    background: url('images/luca-bravo-8x_fFNrmeDk-unsplash.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.514);
+    background-blend-mode: overlay;
+}
+.caro3{
+    background: url('images/valeriia-bugaiova-_pPHgeHz1uk-unsplash.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.514);
+    background-blend-mode: overlay;
+}
+.carousel-cont{
+    position: relative;
+
+}
+.body1{
+    position: absolute;
+    top: 0;
+}
+
+.nav-ul{
+    display: flex;
+}
+.nav-li{
+    list-style-type: none;
+}
+.nav-li2{
+    margin-left: auto;
+}
+.nav-li2 img{
+    width: 150px;
+
+}
+.nav-li1{
+    padding: 20px;
+}
+.text-info h1{
+    color: white;
+    font-size: 60px;
+}
+.text-info p{
+    color: white;
+    font-size: 16px;
+}
+.list-items{
+    border: 2px solid white;
+    padding: 10px;
+    margin-top: 150px;
+    background-color: transparent;
+
+}
+
+.row{
+    margin: 10px;
+}
+    
+.col-sm-3 {
+    background-color: #fff;
+    color: #AACE46;
+}
+.btn{
+    column-gap: 40px;
+}
+
+.col-md-4 h3{
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    top: 150px;
+    cursor: pointer;
+}
+
+.col-md-4 h3:hover {
+    background-color: #AACE46;
+    color: #fff;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: black;
+    background-color: #AACE46;
+    position: relative;
+    top:150px;
+}
+
+
